@@ -41,7 +41,7 @@ public class AppTest
     	String countryValue=CC.selectCountry();
     	Assert.assertEquals(countryValue,"EN");
     	CC.goBackToParentWindow();
-    	//this is 2nd method
+    	
     }
     @AfterTest
     public void closure()
