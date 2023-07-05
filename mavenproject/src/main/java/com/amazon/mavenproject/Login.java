@@ -47,7 +47,7 @@ public class Login {
 		passWord.sendKeys(password,Keys.ENTER);
 	
 	}
-	public void signOut()
+	public void signOut1()
 	{
 		action.moveToElement(account).build().perform();
 		signoutBtn.click();

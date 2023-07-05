@@ -28,7 +28,7 @@ public class LoginTest {
     {
     	l.loginAmazon(number,password);
     	System.out.println(number+" "+password);
-    	l.signOut();
+    	l.signOut1();
     }
     @AfterTest
     public void closure()
@@ -39,6 +39,7 @@ public class LoginTest {
     public void sampleMethod()
     {
     	//Just checking whether Sample branch is working or not
+    	//Added a comment
     	
     }
     
