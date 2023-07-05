@@ -33,7 +33,12 @@ public class LoginTest {
     @AfterTest
     public void closure()
     {
-    	//driver.quit();
+    	driver.quit();
+    }
+    public void sampleMethod()
+    {
+    	//Just checking whether Sample branch is working or not
+    	
     }
     
 }
