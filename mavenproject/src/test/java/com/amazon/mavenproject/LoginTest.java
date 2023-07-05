@@ -33,7 +33,7 @@ public class LoginTest {
     @AfterTest
     public void closure()
     {
-	    #Comment for driver.quit
+	    //Comment for driver.quit
     	driver.quit();
     }
  
