@@ -34,6 +34,7 @@ public class LoginTest {
     public void closure()
     {
 	    //Comment for driver.quit
+	    //2nd one
     	driver.quit();
     }
  
