@@ -36,7 +36,7 @@ public class LoginTest {
 	    #Comment for driver.quit
     	driver.quit();
     }
-    public void sampleMethod()
+    public void sampleMethod1()
     {
     	//Just checking whether Sample branch is working or not
     	//Added a comment
