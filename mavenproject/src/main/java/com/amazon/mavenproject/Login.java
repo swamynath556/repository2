@@ -44,7 +44,7 @@ public class Login {
 	public void loginAmazon(String number,String password)
 	{
 		mobileNumber.sendKeys(number,Keys.ENTER);
-		passWord.sendKeys(password,Keys.ENTER);
+		passWord.sendKeys(password);
 	
 	}
 	public void signOut1()

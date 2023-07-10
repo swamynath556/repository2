@@ -17,7 +17,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
     	        // We are creating an object from the excel sheet data by calling a method that
     	        // reads data from the excel stored locally in our system
     	        Object[][] arrObj = getExcelData(
-    	                "C:\\Users\\Swamynath\\eclipse-workspace\\swamynath\\mavenproject\\amazon_excel.xlsx","Sheet1");
+    	                "C:\\Users\\Swamynath\\git\\repository2\\mavenproject\\amazon_excel.xlsx","Sheet1");
     	        return arrObj;
     	 }
     	 
