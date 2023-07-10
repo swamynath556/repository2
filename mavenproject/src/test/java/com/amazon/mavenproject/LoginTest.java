@@ -33,8 +33,8 @@ public class LoginTest {
     @AfterTest
     public void closure()
     {
-	    #Comment for driver.quit
-    	driver.quit();
+	    //Comment for driver.quit
+      driver.quit();
     }
  
     public void sampleMethod1()
@@ -43,6 +43,8 @@ public class LoginTest {
     	//Just checking whether Sample branch is working or not
     	//Added a comment
     	//2ND 
+    	//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
+    	//Password
     	
     }
     
