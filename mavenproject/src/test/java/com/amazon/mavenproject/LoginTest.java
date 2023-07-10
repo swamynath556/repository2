@@ -34,7 +34,6 @@ public class LoginTest {
     public void closure()
     {
 	    //Comment for driver.quit
-	    //2nd one
     	driver.quit();
     }
  
@@ -44,6 +43,8 @@ public class LoginTest {
     	//Just checking whether Sample branch is working or not
     	//Added a comment
     	//2ND 
+    	//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
+    	//Password
     	
     }
     
