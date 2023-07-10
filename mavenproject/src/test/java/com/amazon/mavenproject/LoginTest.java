@@ -28,12 +28,12 @@ public class LoginTest {
     {
     	l.loginAmazon(number,password);
     	System.out.println(number+" "+password);
-    	l.signOut1();
+    	//l.signOut1();
     }
     @AfterTest
     public void closure()
     {
-	    //Comment for driver.quit
+	   //Comment for driver.quit
       driver.quit();
     }
  

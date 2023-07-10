@@ -46,7 +46,7 @@ public class AppTest
     @AfterTest
     public void closure()
     {
-    	//driver.quit();
+    	driver.quit();
     }
     
 }
