@@ -13,7 +13,9 @@ public class LoginTest {
     @BeforeTest
     public void setUp()
     {
-      System.setProperty("webdriver.chrome.driver","C:\\Users\\Swamynath\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+    	String dir = System.getProperty("user.dir");
+System.out.println(dir);
+      System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (2)\\chromedriver.exe");
       //ChromeOptions options = new ChromeOptions();
       //options.addArguments("--remote-allow-origins=*");
       driver = new ChromeDriver();

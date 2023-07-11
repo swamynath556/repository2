@@ -16,9 +16,13 @@ public class AppTest
     @BeforeTest
     public void setUp()
     {
-      System.setProperty("webdriver.chrome.driver","C:\\Users\\Swamynath\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+      System.setProperty("webdriver.chrome.driver","C:\\Users\\Swamynath\\git\\repository2\\mavenproject\\chromedriver_win32 (2)\\chromedriver.exe");
       //ChromeOptions options = new ChromeOptions();
       //options.addArguments("--remote-allow-origins=*");
+      ChromeOptions options = new ChromeOptions();
+      options.addArguments("headless");
+      // Must maximize Chrome by `start-maximized`
+      options.addArguments("start-maximized");
       driver = new ChromeDriver();
       driver.get("http://www.amazon.com/");
       System.out.println("Title of the webpage is "+driver.getTitle());

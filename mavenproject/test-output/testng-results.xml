@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T17:34:13 IST" name="Suite" finished-at="2023-07-10T17:35:12 IST" duration-ms="59409">
+  <suite started-at="2023-07-11T12:04:10 IST" name="Default suite" finished-at="2023-07-11T12:04:30 IST" duration-ms="19755">
     <groups>
     </groups>
-    <test started-at="2023-07-10T17:34:13 IST" name="Test" finished-at="2023-07-10T17:35:12 IST" duration-ms="59409">
-      <class name="com.amazon.mavenproject.AppTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.mavenproject.AppTest@38425407]" started-at="2023-07-10T17:34:13 IST" name="setUp" finished-at="2023-07-10T17:34:23 IST" duration-ms="9888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchFunction()[pri:1, instance:com.amazon.mavenproject.AppTest@38425407]" started-at="2023-07-10T17:34:37 IST" name="searchFunction" finished-at="2023-07-10T17:34:45 IST" duration-ms="8001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchFunction -->
-        <test-method signature="changeCountryMethod()[pri:2, instance:com.amazon.mavenproject.AppTest@38425407]" started-at="2023-07-10T17:34:45 IST" name="changeCountryMethod" finished-at="2023-07-10T17:35:05 IST" duration-ms="19835" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeCountryMethod -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.amazon.mavenproject.AppTest@38425407]" started-at="2023-07-10T17:35:10 IST" name="closure" finished-at="2023-07-10T17:35:11 IST" duration-ms="1214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-      </class> <!-- com.amazon.mavenproject.AppTest -->
+    <test started-at="2023-07-11T12:04:10 IST" name="Default test" finished-at="2023-07-11T12:04:30 IST" duration-ms="19755">
       <class name="com.amazon.mavenproject.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.mavenproject.LoginTest@327514f]" started-at="2023-07-10T17:34:23 IST" name="setUp" finished-at="2023-07-10T17:34:37 IST" duration-ms="14441" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.mavenproject.LoginTest@45752059]" started-at="2023-07-11T12:04:10 IST" name="setUp" finished-at="2023-07-11T12:04:26 IST" duration-ms="15228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@327514f]" started-at="2023-07-10T17:35:07 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-10T17:35:10 IST" duration-ms="2953" status="PASS">
+        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@45752059]" started-at="2023-07-11T12:04:28 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-11T12:04:29 IST" duration-ms="1504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAmazon -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.amazon.mavenproject.LoginTest@327514f]" started-at="2023-07-10T17:35:11 IST" name="closure" finished-at="2023-07-10T17:35:12 IST" duration-ms="938" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.amazon.mavenproject.LoginTest@45752059]" started-at="2023-07-11T12:04:29 IST" name="closure" finished-at="2023-07-11T12:04:30 IST" duration-ms="1109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- com.amazon.mavenproject.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
