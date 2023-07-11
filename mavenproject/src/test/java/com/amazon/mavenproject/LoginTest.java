@@ -16,7 +16,7 @@ public class LoginTest {
     {
     	String dir = System.getProperty("user.dir");
 System.out.println(dir);
-      System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (2)\\chromedriver.exe");
+      System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (3)\\chromedriver.exe");
       //ChromeOptions options = new ChromeOptions();
       //options.addArguments("--remote-allow-origins=*");
       ChromeOptions options = new ChromeOptions();
