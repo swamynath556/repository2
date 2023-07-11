@@ -2,6 +2,7 @@ package com.amazon.mavenproject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -18,6 +19,10 @@ System.out.println(dir);
       System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (2)\\chromedriver.exe");
       //ChromeOptions options = new ChromeOptions();
       //options.addArguments("--remote-allow-origins=*");
+      ChromeOptions options = new ChromeOptions();
+      options.addArguments("headless");
+      // Must maximize Chrome by `start-maximized`
+      options.addArguments("start-maximized");
       driver = new ChromeDriver();
       driver.get("http://www.amazon.com/");
       System.out.println("Title of the webpage is "+driver.getTitle());
@@ -45,7 +50,7 @@ System.out.println(dir);
     	//Just checking whether Sample branch is working or not
     	//Added a comment
     	//2ND 
-    	//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
+    	//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
     	
     	//Password
     	
