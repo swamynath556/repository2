@@ -19,11 +19,10 @@ System.out.println(dir);
       System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (3)\\chromedriver.exe");
       //ChromeOptions options = new ChromeOptions();
       //options.addArguments("--remote-allow-origins=*");
-      ChromeOptions options = new ChromeOptions();
       ChromeOptions chromeOptions= new ChromeOptions();
       chromeOptions.setBinary("C:\\Users\\Swamynath\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
  
-      driver = new ChromeDriver(options);
+      driver = new ChromeDriver(chromeOptions);
       driver.get("http://www.amazon.com/");
       System.out.println("Title of the webpage is "+driver.getTitle());
       l= new Login(driver);
