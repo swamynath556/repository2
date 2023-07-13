@@ -21,7 +21,7 @@ System.out.println(dir);
       //options.addArguments("--remote-allow-origins=*");
       ChromeOptions options = new ChromeOptions();
       ChromeOptions chromeOptions= new ChromeOptions();
-      chromeOptions.setBinary("C:\\C:\\Users\\Swamynath\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+      chromeOptions.setBinary("C:\\Users\\Swamynath\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
  
       driver = new ChromeDriver(options);
       driver.get("http://www.amazon.com/");
