@@ -16,14 +16,8 @@ public class LoginTest {
     {
     	String dir = System.getProperty("user.dir");
 System.out.println(dir);
-     
-      //ChromeOptions options = new ChromeOptions();
-      //options.addArguments("--remote-allow-origins=*");
-      ChromeOptions chromeOptions= new ChromeOptions();
-      //chromeOptions.setBinary("C:\\Users\\Swamynath\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-	System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (3)\\chromedriver.exe");
- 
-      driver = new ChromeDriver(chromeOptions);
+     System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (3)\\chromedriver.exe");
+      driver = new ChromeDriver();
       driver.get("http://www.amazon.com/");
       System.out.println("Title of the webpage is "+driver.getTitle());
       l= new Login(driver);
