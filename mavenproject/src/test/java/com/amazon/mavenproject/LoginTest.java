@@ -16,11 +16,12 @@ public class LoginTest {
     {
     	String dir = System.getProperty("user.dir");
 System.out.println(dir);
-      System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (3)\\chromedriver.exe");
+     
       //ChromeOptions options = new ChromeOptions();
       //options.addArguments("--remote-allow-origins=*");
       ChromeOptions chromeOptions= new ChromeOptions();
       chromeOptions.setBinary("C:\\Users\\Swamynath\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+	System.setProperty("webdriver.chrome.driver",dir+"\\chromedriver_win32 (3)\\chromedriver.exe");
  
       driver = new ChromeDriver(chromeOptions);
       driver.get("http://www.amazon.com/");
