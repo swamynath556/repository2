@@ -20,10 +20,10 @@ System.out.println(dir);
       //ChromeOptions options = new ChromeOptions();
       //options.addArguments("--remote-allow-origins=*");
       ChromeOptions options = new ChromeOptions();
-      options.addArguments("headless");
-      // Must maximize Chrome by `start-maximized`
-      options.addArguments("start-maximized");
-      driver = new ChromeDriver();
+      ChromeOptions chromeOptions= new ChromeOptions();
+      chromeOptions.setBinary("C:\\C:\\Users\\Swamynath\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+ 
+      driver = new ChromeDriver(options);
       driver.get("http://www.amazon.com/");
       System.out.println("Title of the webpage is "+driver.getTitle());
       l= new Login(driver);
