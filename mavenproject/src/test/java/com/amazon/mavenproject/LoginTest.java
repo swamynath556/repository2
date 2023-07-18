@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,7 @@ public class LoginTest {
 	Login l;
     @BeforeTest
     @Parameters("browser")
-    public void setUp(String browser)
+    public void setUp(@Optional("chrome")String browser)
     {
     	String dir = System.getProperty("user.dir");
     	System.out.println(dir+browser);
