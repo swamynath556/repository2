@@ -83,7 +83,7 @@
           <version>2.22.1</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>/mavenproject/testng.xml</suiteXmlFile>
+              <suiteXmlFile>C:\Users\Swamynath\git\repository\repository2\mavenproject\testng.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
