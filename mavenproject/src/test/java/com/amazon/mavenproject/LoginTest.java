@@ -16,9 +16,9 @@ public class LoginTest {
 
 	WebDriver driver;
 	Login l;
-    @BeforeTest
+    @BeforeTest(groups= {"sample"})
     @Parameters("browser")
-    public void setUp(@Optional("chrome")String browser)
+    public void setUp(@Optional("chrome")String browser) throws InterruptedException
     {
     	String dir = System.getProperty("user.dir");
     	System.out.println(dir+browser);
@@ -36,11 +36,12 @@ public class LoginTest {
     	}
       driver.get("http://www.amazon.com/");
       System.out.println("Title of the webpage is "+driver.getTitle());
+      Thread.sleep(5000);
       l= new Login(driver);
       l.clickSignIn();
       
     }
-    @Test(dataProvider = "excelData", dataProviderClass = Utility.ExcelReader.class)
+    @Test(dataProvider = "excelData", dataProviderClass = Utility.ExcelReader.class,groups= {"sample"})
     public void loginToAmazon(String number,String password)
     {
     	l.loginAmazon(number,password);

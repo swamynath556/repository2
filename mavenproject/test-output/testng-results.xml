@@ -2,47 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-18T18:04:21 IST" name="Suite" finished-at="2023-07-18T18:04:51 IST" duration-ms="29671">
+  <suite started-at="2023-07-19T15:20:01 IST" name="Suite" finished-at="2023-07-19T15:20:58 IST" duration-ms="57497">
     <groups>
+      <group name="sample">
+        <method signature="LoginTest.loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" name="loginToAmazon" class="com.amazon.mavenproject.LoginTest"/>
+        <method signature="LoginTest.loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" name="loginToAmazon" class="com.amazon.mavenproject.LoginTest"/>
+      </group> <!-- sample -->
     </groups>
-    <test started-at="2023-07-18T18:04:21 IST" name="ChromeTest" finished-at="2023-07-18T18:04:49 IST" duration-ms="28350">
+    <test started-at="2023-07-19T15:20:01 IST" name="FirefoxTest" finished-at="2023-07-19T15:20:56 IST" duration-ms="55101">
       <class name="com.amazon.mavenproject.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@702657cc]" started-at="2023-07-18T18:04:21 IST" name="setUp" finished-at="2023-07-18T18:04:44 IST" duration-ms="22935" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@702657cc]" started-at="2023-07-18T18:04:46 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-18T18:04:48 IST" duration-ms="2423" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[7799298050]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[shonu@556]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToAmazon -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.amazon.mavenproject.LoginTest@702657cc]" started-at="2023-07-18T18:04:48 IST" name="closure" finished-at="2023-07-18T18:04:49 IST" duration-ms="1006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-      </class> <!-- com.amazon.mavenproject.LoginTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2023-07-18T18:04:21 IST" name="FirefoxTest" finished-at="2023-07-18T18:04:51 IST" duration-ms="29671">
-      <class name="com.amazon.mavenproject.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@49438269]" started-at="2023-07-18T18:04:21 IST" name="setUp" finished-at="2023-07-18T18:04:43 IST" duration-ms="22176" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" started-at="2023-07-19T15:20:01 IST" name="setUp" finished-at="2023-07-19T15:20:36 IST" duration-ms="35332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@49438269]" started-at="2023-07-18T18:04:46 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-18T18:04:48 IST" duration-ms="1626" status="PASS">
+        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" started-at="2023-07-19T15:20:53 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-19T15:20:56 IST" duration-ms="2402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,11 +38,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAmazon -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.amazon.mavenproject.LoginTest@49438269]" started-at="2023-07-18T18:04:48 IST" name="closure" finished-at="2023-07-18T18:04:51 IST" duration-ms="3115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
       </class> <!-- com.amazon.mavenproject.LoginTest -->
     </test> <!-- FirefoxTest -->
+    <test started-at="2023-07-19T15:20:01 IST" name="ChromeTest" finished-at="2023-07-19T15:20:58 IST" duration-ms="57497">
+      <class name="com.amazon.mavenproject.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" started-at="2023-07-19T15:20:01 IST" name="setUp" finished-at="2023-07-19T15:20:49 IST" duration-ms="48360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" started-at="2023-07-19T15:20:53 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-19T15:20:58 IST" duration-ms="4833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7799298050]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shonu@556]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAmazon -->
+      </class> <!-- com.amazon.mavenproject.LoginTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
