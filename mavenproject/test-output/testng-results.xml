@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-19T15:20:01 IST" name="Suite" finished-at="2023-07-19T15:20:58 IST" duration-ms="57497">
+  <suite started-at="2023-07-26T11:45:07 IST" name="Suite" finished-at="2023-07-26T11:46:16 IST" duration-ms="69165">
     <groups>
       <group name="sample">
         <method signature="LoginTest.loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" name="loginToAmazon" class="com.amazon.mavenproject.LoginTest"/>
         <method signature="LoginTest.loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" name="loginToAmazon" class="com.amazon.mavenproject.LoginTest"/>
       </group> <!-- sample -->
     </groups>
-    <test started-at="2023-07-19T15:20:01 IST" name="FirefoxTest" finished-at="2023-07-19T15:20:56 IST" duration-ms="55101">
+    <test started-at="2023-07-26T11:45:07 IST" name="FirefoxTest" finished-at="2023-07-26T11:46:15 IST" duration-ms="67637">
       <class name="com.amazon.mavenproject.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" started-at="2023-07-19T15:20:01 IST" name="setUp" finished-at="2023-07-19T15:20:36 IST" duration-ms="35332" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" started-at="2023-07-26T11:45:07 IST" name="setUp" finished-at="2023-07-26T11:45:58 IST" duration-ms="51550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" started-at="2023-07-19T15:20:53 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-19T15:20:56 IST" duration-ms="2402" status="PASS">
+        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@510f3d34]" started-at="2023-07-26T11:46:09 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-26T11:46:14 IST" duration-ms="5184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,9 +40,9 @@
         </test-method> <!-- loginToAmazon -->
       </class> <!-- com.amazon.mavenproject.LoginTest -->
     </test> <!-- FirefoxTest -->
-    <test started-at="2023-07-19T15:20:01 IST" name="ChromeTest" finished-at="2023-07-19T15:20:58 IST" duration-ms="57497">
+    <test started-at="2023-07-26T11:45:07 IST" name="ChromeTest" finished-at="2023-07-26T11:46:16 IST" duration-ms="69165">
       <class name="com.amazon.mavenproject.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" started-at="2023-07-19T15:20:01 IST" name="setUp" finished-at="2023-07-19T15:20:49 IST" duration-ms="48360" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" started-at="2023-07-26T11:45:07 IST" name="setUp" finished-at="2023-07-26T11:45:53 IST" duration-ms="46219" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" started-at="2023-07-19T15:20:53 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-19T15:20:58 IST" duration-ms="4833" status="PASS">
+        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.mavenproject.LoginTest@10683d9d]" started-at="2023-07-26T11:46:09 IST" name="loginToAmazon" data-provider="excelData" finished-at="2023-07-26T11:46:16 IST" duration-ms="6831" status="PASS">
           <params>
             <param index="0">
               <value>

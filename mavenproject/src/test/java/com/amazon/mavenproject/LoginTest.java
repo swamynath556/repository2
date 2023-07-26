@@ -1,6 +1,7 @@
 package com.amazon.mavenproject;
 
 import org.openqa.selenium.WebDriver;
+import java.util.Properties;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,13 +13,16 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.io.FileReader;
+import java.io.IOException;
+
 public class LoginTest {
 
 	WebDriver driver;
 	Login l;
     @BeforeTest(groups= {"sample"})
     @Parameters("browser")
-    public void setUp(@Optional("chrome")String browser) throws InterruptedException
+    public void setUp(@Optional("chrome")String browser) throws InterruptedException, IOException
     {
     	String dir = System.getProperty("user.dir");
     	System.out.println(dir+browser);
@@ -34,7 +38,12 @@ public class LoginTest {
     		option.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
     		 driver = new FirefoxDriver(option);
     	}
-      driver.get("http://www.amazon.com/");
+    	FileReader reader=new FileReader(dir+"\\src\\main\\java\\Utility\\TestData.properties");
+        Properties props=new Properties();
+        props.load(reader);	
+        String url=props.getProperty("mainUrl");
+        System.out.println(url);
+      driver.get(url);
       System.out.println("Title of the webpage is "+driver.getTitle());
       Thread.sleep(5000);
       l= new Login(driver);
